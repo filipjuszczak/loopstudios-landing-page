@@ -49,9 +49,16 @@
 
 .nav__link:link,
 .nav__link:visited {
+  padding-bottom: 0.8rem;
   font-family: 'Alata';
   text-decoration: none;
   color: hsl(0, 0%, 100%);
+  transition: all 200ms;
+}
+
+.nav__link:hover,
+.nav__link:visited {
+  border-bottom: 2px solid hsl(0, 0%, 100%);
 }
 
 .nav__menu-btn {
@@ -120,7 +127,8 @@
   text-transform: uppercase;
 }
 
-.section-creations__btn {
+.section-creations__btn:link,
+.section-creations__btn:visited {
   display: flex;
   justify-content: center;
   padding: 1.2rem 4.2rem;
@@ -131,8 +139,15 @@
   text-decoration: none;
   letter-spacing: 3px;
   color: hsl(0, 0%, 0%);
-  border: 2px solid hsl(0, 0%, 41%);
+  border: 2px solid hsl(0, 0%, 0%);
   border-radius: 3px;
+  transition: all 200ms;
+}
+
+.section-creations__btn:hover,
+.section-creations__btn:active {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
 }
 
 .section-creations__container {
@@ -243,18 +258,38 @@
   gap: 4.2rem;
 }
 
-.footer__nav__link {
+.footer__nav__link:link,
+.footer__nav__link:visited {
+  padding-bottom: 0.8rem;
   font-family: 'Alata';
   font-size: 1.6rem;
   text-decoration: none;
   color: inherit;
+  transition: all 200ms;
+}
+
+.footer__nav__link:hover,
+.footer__nav__link:active {
+  border-bottom: 2px solid hsl(0, 0%, 100%);
 }
 
 .footer__socials__icons-container {
   display: flex;
   justify-content: end;
+  align-items: center;
   gap: 2.4rem;
   margin-bottom: 3.2rem;
+}
+
+.footer__socials__icon-box a:link,
+.footer__socials__icon-box a:visited {
+  transition: all 200ms;
+}
+
+.footer__socials__icon-box a:hover,
+.footer__socials__icon-box a:active {
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid hsl(0, 0%, 100%);
 }
 
 .footer__socials__copyright {
