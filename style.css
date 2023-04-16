@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.scroll-lock {
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url('./images/desktop/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 16rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-bottom: 16rem;
+}
+
+.header__nav__container {
+  margin: 0 auto 16rem auto;
+  padding-top: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 3.6rem;
+}
+
+.nav__links li {
+  font-size: 1.6rem;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  font-family: 'Alata';
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.nav__menu-btn {
+  display: none;
+  border: none;
+  background: transparent;
+  z-index: 9999;
+}
+
+.header__text {
+  width: 55%;
+  padding: 4.4rem 4.8rem;
+  font-family: 'Josefin Sans';
+  font-size: 7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  border: 3px solid hsl(0, 0%, 100%);
+}
+
+.section-intro .container {
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 16rem;
+}
+
+.section-intro__img {
+  width: 65%;
+}
+
+.section-intro__text-box {
+  max-width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8rem 7.4rem 0 8rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.section-intro__heading {
+  margin-bottom: 3.2rem;
+  font-family: 'Josefin Sans';
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.section-intro__description {
+  font-family: 'Alata';
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: hsl(0, 0%, 55%);
+}
+
+.section-creations__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.2rem;
+}
+
+.section-creations__heading {
+  font-family: 'Josefin Sans';
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.section-creations__btn {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 4.2rem;
+  font-family: 'Alata';
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 3px;
+}
+
+.section-creations__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+
+.section-creations__container__card {
+  position: relative;
+  min-height: 50vh;
+}
+
+.section-creations__container__card:nth-child(1) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-deep-earth.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(2) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-night-arcade.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(3) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-soccer-team.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(4) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-grid.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(5) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-from-above.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(6) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-pocket-borealis.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(7) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-curiosity.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-creations__container__card:nth-child(8) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('./images/desktop/image-fisheye.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__text {
+  position: absolute;
+  font-family: 'Josefin Sans';
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  bottom: 5%;
+  left: 15%;
+}
+
+.card__img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+.footer .container {
+  padding: 4.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav__img-box {
+  margin-bottom: 3.2rem;
+}
+
+.footer__nav__img-box .logo {
+  width: 35%;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  gap: 4.2rem;
+}
+
+.footer__nav__link {
+  font-family: 'Alata';
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__socials__icons-container {
+  display: flex;
+  justify-content: end;
+  gap: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer__socials__copyright {
+  font-family: 'Alata';
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 55%);
+}
