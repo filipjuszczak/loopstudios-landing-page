@@ -1,15 +1,16 @@
+/* 375px */
 @media (max-width: 375px) {
   body {
     position: relative;
   }
 
   .header {
-    margin-bottom: 10rem;
+    margin-bottom: 6.25rem;
     background-image: url('./images/mobile/image-hero.jpg');
   }
 
   .header__img-box {
-    margin-left: 2.4rem;
+    margin-left: 1.5rem;
   }
 
   .header__img-box .logo {
@@ -17,7 +18,7 @@
   }
 
   .nav__menu-btn {
-    margin-right: 3.2rem;
+    margin-right: 2rem;
   }
 
   .nav--open .nav__menu-btn img {
@@ -47,23 +48,23 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 6rem;
-    padding: 8rem 2.5rem 0 2.5rem;
+    gap: 3.75rem;
+    padding: 5rem 1.5625rem 0 1.5625rem;
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
-    background-color: hsl(0, 100%, 100%);
+    background-color: hsl(0 100% 100%);
   }
 
   .nav__links--open {
     display: flex;
-    padding-top: 12rem;
+    padding-top: 7.5rem;
   }
 
   .nav__link:link,
   .nav__link:visited {
-    color: hsl(0, 0%, 0%);
+    color: hsl(0 0% 0%);
   }
 
   .nav__menu-btn {
@@ -73,38 +74,36 @@
   .header__text {
     width: 90%;
     margin: 0 auto;
-    padding: 4.4rem 2.4rem;
-    font-size: 4.2rem;
+    padding: 2.75rem 1.5rem;
+    font-size: 2.625rem;
   }
 
   .section-intro__img-box {
-    margin-bottom: 4.8rem;
+    margin-bottom: 3rem;
   }
 
   .section-intro__img {
-    /* display: block; */
-    /* margin: 0 auto; */
     width: 100%;
   }
 
   .section-intro .container {
-    margin-bottom: 10rem;
-    padding: 0 2.4rem;
+    margin-bottom: 6.25rem;
+    padding: 0 1.5rem;
   }
 
   .section-intro__text-box {
     max-width: 100%;
     position: static;
-    padding: 0 1.2rem;
+    padding: 0 0.75rem;
   }
 
   .section-intro__heading {
-    font-size: 3.4rem;
+    font-size: 2.125rem;
     text-align: center;
   }
 
   .section-intro__description {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -113,7 +112,7 @@
   }
 
   .section-creations__heading {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
   }
 
@@ -123,8 +122,8 @@
 
   .section-creations__container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 14rem);
-    padding: 0 1.2rem;
+    grid-template-rows: repeat(8, 8.75rem);
+    padding: 0 0.75rem;
   }
 
   .section-creations__btn {
@@ -198,7 +197,7 @@
     width: 50%;
     bottom: 20%;
     left: 5%;
-    font-size: 3rem;
+    font-size: 1.875rem;
   }
 
   .footer .container {
@@ -207,7 +206,7 @@
   }
 
   .footer__nav__container {
-    margin-bottom: 4.2rem;
+    margin-bottom: 2.625rem;
   }
 
   .footer__nav {
@@ -216,7 +215,7 @@
   }
 
   .footer__nav__img-box {
-    margin-bottom: 5.2rem;
+    margin-bottom: 3.25rem;
   }
 
   .footer__nav__img-box .logo {
